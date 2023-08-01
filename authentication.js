@@ -1,6 +1,6 @@
 const testAuth = (z, bundle) => {
   const options = {
-    url: bundle.authData.serverURL + '/_matrix/client/r0/sync',
+    url: bundle.authData.serverURL + '/_matrix/client/v3/sync',
     method: 'GET',
     headers: {},
     params: {
